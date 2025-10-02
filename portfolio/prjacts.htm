@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+ <header>
+        <nav>
+            <div class="left-port"> Ata Portfolio</div>
+            <div class="right-port">
+                <ul>
+         <a href="port.html"><li>Home</a></li>
+         <a href="skill.html"><li>About</a></li>
+         <a href="service.htm"><li>Service</a></li>
+         <a href="prjacts.htm"><li>Projact</a></li>
+         <a href="nice-cont.html"><li>Contcat</a></li>
+        
+
+                      
+                </ul>
+            </div>
+        </nav>
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>My Projects</h2>
+    <div class="projects-container">
+
+      <!-- Project 1 -->
+      <div class="project-card">
+        <img src="moing.png" alt="Portfolio Website Screenshot">
+        <h3>Portfolio Website</h3>
+        <p>A responsive personal website to showcase my skills and projects.</p>
+        <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
+        <div class="links">
+          <!--  -->
+          <a href="https://github.com/ataurhmankhan016-cell" target="_blank">GitHub</a>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project-card">
+        <img src="calculeter.png" alt="Calculator App Screenshot">
+        <h3>Calculator App</h3>
+        <p>A simple calculator performing basic arithmetic operations.</p>
+        <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
+        <div class="links">
+          <a href="https://github.com/ataurhmankhan016-cell" target="_blank">GitHub</a>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+
+
+      <!-- Project 4 -->
+      <div class="project-card">
+        <img src="bg-screen.png" alt="Background Color Changer Screenshot">
+        <h3>Background Color Changer</h3>
+        <p>Change background color dynamically with button clicks.</p>
+        <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
+        <div class="links">
+          <a href="https://github.com/ataurhmankhan016-cell" target="_blank">GitHub</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+</body>
+
+</html>
+<!-- CSS -->
+<style>
+  
+    nav {
+      position: fixed;  
+  top: 0;
+  left: 0;
+  width: 100%;    
+  height: 60px;     
+  background: rgb(63, 12, 110);  
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+    transition: 0.3s ease, box-shadow 0.3s ease;
+   z-index: 1000;  
+    }
+.left-port{
+  font-weight: bold;
+  color: white;
+  margin-left: 100px;
+}
+    nav ul {
+        display: flex;
+        justify-content: center;
+        margin-right: 30px;
+    }
+
+    nav ul li {
+        list-style: none;
+        margin: 0 23px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: white;
+    }
+
+    nav ul li a:hover {
+        color: white;
+        font-weight: bold;
+    }
+  #projects {
+    padding: 60px 20px;
+    background: #f9f9f9;
+    text-align: center;
+  }
+
+  #projects h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+    color: #222;
+  }
+
+  .projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+  }
+
+  .project-card {
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .project-card:hover {
+    transform: translateY(-8px);
+  }
+
+  .project-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+
+  .project-card h3 {
+    margin: 15px 0 10px;
+    font-size: 1.2rem;
+    color: #333;
+  }
+
+  .project-card p {
+    font-size: 0.95rem;
+    color: #555;
+    margin: 5px 15px;
+  }
+
+  .links {
+    margin: 15px 0;
+  }
+
+  .links a {
+    margin: 0 8px;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: 500;
+    transition: color 0.2s;
+  }
+
+  .links a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+  }
+</style>

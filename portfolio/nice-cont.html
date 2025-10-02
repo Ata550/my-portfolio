@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+
+    <header>
+        <nav>
+            <div class="left-port"> Ata Portfolio</div>
+            <div class="right-port">
+                <ul>
+         <a href="port.html"><li>Home</a></li>
+         <a href="skill.html"><li>About</a></li>
+         <a href="service.htm"><li>Service</a></li>
+         <a href="prjacts.htm"><li>Projact</a></li>
+         <a href="nice-cont.html"><li>Contcat</a></li>
+        
+
+                      
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+<!-- ============ CONTACT SECTION ============ -->
+<section id="contact" class="contact">
+  <div class="container">
+    <h2>Contact Me</h2>
+    <p>Feel free to reach out by filling the form below </p>
+
+    <form class="contact-form" action="https://formspree.io/f/mnqerxyz" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+</section>
+</body>
+</html>
+<!-- ============ CSS ============ -->
+<style>
+  
+  
+    nav {
+       position: fixed;  
+  top: 0;
+  left: 0;
+  width: 100%;    
+  height: 60px;     
+  background: rgb(63, 12, 110);  
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+    transition: 0.3s ease, box-shadow 0.3s ease;
+   z-index: 1000;  
+
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+          margin-right: 30px;
+    }
+
+    nav ul li {
+        list-style: none;
+        margin: 0 23px;
+        
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 16px;
+      
+    }
+
+    nav ul li a:hover {
+        color: rgb(30, 30, 227);
+        color: whitesmoke;
+        font-weight: bold;
+    }
+
+    .left-port {
+        font-size: 1.3rem;
+        font-weight: bold;
+        color: #ffffff;
+        margin-left: 100px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+.contact {
+  padding: 60px 20px;
+  background: #f9f9f9;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.contact p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 25px;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+  margin: 10px 0;
+  padding: 14px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: rgb(63, 12, 110);
+  box-shadow: 0 0 6px rgba(241,196,15,0.6);
+}
+
+.contact-form button {
+  margin-top: 15px;
+  padding: 14px;
+  background: rgb(63, 12, 110);
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-form button:hover {
+  background: rgb(111, 13, 203);
+  color: white;
+}
+</style>
+```

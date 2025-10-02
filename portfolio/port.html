@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ata-portfolio</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: Arial;
+    }
+
+    body {
+        background-color: white;
+        color: #fff;
+
+    }
+
+    nav {
+       position: fixed;  
+  top: 0;
+  left: 0;
+  width: 100%;    
+  height: 60px;     
+  background: rgb(63, 12, 110);  
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+    transition: 0.3s ease, box-shadow 0.3s ease;
+   z-index: 1000;  
+
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+          margin-right: 30px;
+    }
+
+    nav ul li {
+        list-style: none;
+        margin: 0 23px;
+        
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 16px;
+      
+    }
+
+    nav ul li a:hover {
+        color: rgb(30, 30, 227);
+        color: whitesmoke;
+        font-weight: bold;
+    }
+
+    .left-port {
+        font-size: 1.3rem;
+        font-weight: bold;
+        color: #ffffff;
+        margin-left: 100px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .fast-section {
+        display: flex;
+        justify-content: space-around;
+        margin: 110px 0;
+        color: black;
+    }
+
+    .fast-section>div {
+        width: 30%;
+    }
+
+    .left-section {
+        font-size: 1.9rem;
+    }
+
+    .right-section {}
+
+    main hr {
+        margin: o;
+        background-color: blue;
+        line-height: 1.1px;
+        margin: 43px 83px;
+    }
+
+    .right-section img {
+        width: 100%;
+        /* margin: 0 20px; */
+
+
+    }
+
+    .yellow {
+        color: rgb(69, 10, 125);
+        font-weight: bold;
+    }
+
+    .heelo {
+        font-weight: bold;
+    }
+
+    #element {
+        color: rgb(70, 12, 124);
+        font-weight: bold;
+    }
+
+    .fast-experince {
+        max-width: 80vw;
+        margin: auto;
+        height: 80vh;
+    }
+
+    .having {
+        color: black;    
+
+    }
+
+    .fast-experince .box {
+        display: flex;
+        width: 80vw;
+        margin: 56px 0;
+        background-color: black;
+        height: 2px;
+        color: black;
+    }
+       .fast-experince h1{
+        color: rgb(54, 12, 94);
+       }
+
+    .fast-experince .vartcal {
+        height: 90px;
+        width: 2px;
+        background-color: black;
+        margin: 0 100px;
+    }
+
+    .image-top {
+        width: 30px;
+        position: relative;
+        top: -32px;
+        left: -9px;
+    }
+
+    .vartcal-title {
+        position: relative;
+        top: 60px;
+        width: 180px;
+
+    }
+
+    .vietcal-decs {
+        position: relative;
+        top: 70px;
+        width: 150px;
+        font-size: 14px;
+    }
+
+
+.footer {
+  background:  rgb(47, 5, 87);
+color: white;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.footer .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1100px;
+  margin: auto;
+  
+}
+
+.footer-left, .footer-links, .footer-right {
+  flex: 1 1 250px;
+  margin: 10px;
+}
+
+.footer h3 {
+  margin: 0;
+  font-size: 18px;
+  color: white;
+}
+
+.footer p, .footer a {
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: white;
+}
+
+.footer .social-icons {
+  margin-top: 10px;
+}
+
+.footer .social-icons a {
+  margin-right: 15px;
+  font-size: 14px;
+  padding: 12px 0;
+    }
+       .fast-section .button{
+        padding: 16px;
+       
+       }
+    .fast-section .btn{
+        padding: 10px;
+        border: solid 2px black;
+        border-radius: 8px;
+        background-color: rgb(63, 12, 110);
+        font-size: 14px;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+         /* margin: 6px; */
+    }
+    .fast-section .btn:hover{
+        background-color: #fff;
+        color: #000;
+    }
+</style>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="left-port"> Ata Portfolio</div>
+            <div class="right-port">
+                <ul>
+         <a href="port.html"><li>Home</a></li>
+         <a href="skill.html"><li>About</a></li>
+         <a href="service.htm"><li>Service</a></li>
+         <a href="prjacts.htm"><li>Projact</a></li>
+         <a href="nice-cont.html"><li>Contact</a></li>
+        
+
+                      
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="fast-section">
+            <div class="left-section">
+                Hey there! I'am <span class="yellow">ATA</span> I Work as a Web Developer
+                and <span claas="heelo">Freelancer</span>
+                <div> building Website that Bring ideas to life...
+                </div>
+                <span id="element"></span>
+                <div class="button">
+                    <a href="My Resume.pdf">
+                    <button class="btn">downlode Resume</button>
+                    </a>
+                   
+                    
+                    <a href="https://github.com/ataurhmankhan016-cell">
+                    <button  class="btn">Vist GitHub</button>
+                </a>
+              
+                </div>
+            </div>
+
+            <div class="right-section">
+                <img src="image-all.png" alt="">
+            </div>
+        </section>
+
+        <hr>
+        <section class="fast-experince">
+            <span class="having">What i have dont fare</span>
+            <h1>Work experince</h1>
+            <div class="box">
+                <div class="vartcal">
+                    <img src="js.logo.png" alt="" class="image-top">
+
+                    <div class="vartcal-title"> Experience (2024–2025)</div>
+                    <div class="vietcal-decs">
+                        Developed and maintained responsive websites using HTML, CSS, JavaScript.
+                    </div>
+                </div>
+                <div class="vartcal">
+                    <img src="html.logo.png" alt="" class="image-top">
+
+                    <div class="vartcal-title">Experience (2024–2025) </div>
+                    <div class="vietcal-decs">
+                        Built interactive features such as dynamic forms, animations, and reusable UI components.
+                    </div>
+                </div>
+                <div class="vartcal">
+                    <img src="html.logo.png" alt="" class="image-top">
+                    <div class="vartcal-title">Experience (2024–2025) </div>
+                    <div class="vietcal-decs">
+                        Worked with GitHub for version control and collaborative projects.
+                    </div>
+                </div>
+
+                <div class="vartcal">
+                    <img src="js.logo.png" alt="" class="image-top">
+                    <div class="vartcal-title">Experience (2024–2025)</div>
+                    <div class="vietcal-decs">
+                        Designed and deployed portfolio projects like Calculator App, Background Color Changer, and
+                        Tic-Tac-Toe Game.
+                    </div>
+                </div>
+            </div>
+            </div>
+            </div>
+        </section>
+
+    <footer class="footer">
+  <div class="container">
+    <!-- Left Side -->
+    <div class="footer-left">
+      <h3>© 2025 Ataurrahman</h3>
+      <p>Designed & Developed by Ataurrahman</p>
+    </div>
+
+    <!-- Middle Quick Links -->
+    <div class="footer-links">
+      <a href="port.html">Home</a>
+      <a href="skill.html">About</a>
+      <a href="prjacts.htm">Projects</a>
+      <a href="nice-cont.html">Contact</a>
+    </div>
+
+    <!-- Right Side Contact & Social -->
+    <div class="footer-right">
+      <p>Email: <a href="mailto:ataurhmankhan016@gmail.com">ataurhmankhan016@gmail.com</a></p>
+      <p>Phone: <a href="tel:+92-325-8594821">+92-325-8594821</a></p>
+      <div class="social-icons">
+        <a href="https://linkedin.com/" target="_blank">🔗 LinkedIn</a>
+        <a href="https://github.com/" target="_blank">💻 GitHub</a>
+        
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+        <!-- Setup and start animation! -->
+        <script>
+            var typed = new Typed('#element', {
+                strings: ['Web developer'],
+                typeSpeed: 50,
+            });
+        </script>
+
+</body>
+
+</html>

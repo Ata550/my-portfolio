@@ -1,0 +1,135 @@
+<html>
+<head>
+
+</head>
+<body>
+      <header>
+        <nav>
+            <div class="left-port"> Ata Portfolio</div>
+            <div class="right-port">
+                <ul>
+         <a href="port.html"><li>Home</a></li>
+         <a href="skill.html"><li>About</a></li>
+         <a href="nice-cont.html"><li>Contcat</a></li>
+                      
+                </ul>
+            </div>
+        </nav>
+    </header>
+<!-- ============ SERVICES SECTION ============ -->
+<section id="services" class="services">
+  <div class="container">
+    <h2 class="section-title">My Services</h2>
+    <p class="section-subtitle">What I can do as a fresher web developer</p>
+
+    <div class="services-grid">
+      <!-- Service 1 -->
+      <div class="service-card">
+        <h3>🌐 Web Development</h3>
+        <p>I create responsive and modern websites using HTML, CSS, and JavaScript.</p>
+      </div>
+
+      <!-- Service 2 -->
+      <div class="service-card">
+        <h3>💼 Portfolio Websites</h3>
+        <p>I design and develop personal portfolio websites for students and professionals.</p>
+      </div>
+
+      <!-- Service 3 -->
+      <div class="service-card">
+        <h3>🎨 UI/UX Design (Basic)</h3>
+        <p>I build clean and user-friendly website layouts with a focus on simplicity.</p>
+      </div>
+
+      <!-- Service 4 -->
+      <div class="service-card">
+        <h3>⚙️ Website Customization</h3>
+        <p>I help in improving, updating, or customizing existing websites.</p>
+      </div>
+    </div>
+  </div>
+</section>
+</body>
+</html>
+<!-- ============ CSS ============ -->
+<style>
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgb(63, 12, 110);
+        height: 60px;
+    }
+.left-port{
+  font-weight: bold;
+  color: white;
+}
+    nav ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav ul li {
+        list-style: none;
+        margin: 0 23px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: white;
+    }
+
+    nav ul li a:hover {
+        color: white;
+        font-weight: bold;
+    }
+.services {
+  padding: 60px 20px;
+  background: #f9f9f9;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.section-subtitle {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.service-card {
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+}
+
+.service-card h3 {
+  font-size: 20px;
+  margin-bottom: 12px;
+  color: #f1c40f;
+}
+
+.service-card p {
+  font-size: 15px;
+  color: #444;
+  line-height: 1.5;
+}
+</style>
+```
